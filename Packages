@@ -1,0 +1,14 @@
+Package: com.unlimapps.uaupdatetools
+Name: App Admin
+Version: 1.0r-101
+Description: Hạ cấp Apps trên AppStore iOS
+Filename: ./debs/App Admin.deb
+Size: 875.008
+MD5sum: 4AB9F1FC10827990402C4A3CBBDEB46A
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider
+Priority: optional
+Architecture: iphoneos-arm
+Author: Demo-Kun
+Maintainer: Demo-Kun 
