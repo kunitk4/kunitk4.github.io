@@ -2,10 +2,9 @@ Package: com.unlimapps.uaupdatetools
 Name: App Admin
 Version: 1.0r-101
 Description: Hạ cấp Apps trên AppStore iOS
-Filename: ./debs/App Admin.deb
 Size: 875.008
 MD5sum: 4AB9F1FC10827990402C4A3CBBDEB46A
-Section: System
+Section: Hệ Thống
 Depends: firmware (>= 7.0), mobilesubstrate
 Conflicts: it.marcocristalli.asupdatehider
 Priority: optional
@@ -17,10 +16,24 @@ Package: com.getdelta.flex3beta
 Name: Flex 3 Beta
 Depends: mobilesubstrate, firmware (>= 9.0)
 Recommended: com.rpetrich.rocketbootstrap
+Section: Tinh Chỉnh
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Version: 1:3~Beta61
+Version: 3~Beta61
 Architecture: iphoneos-arm
 Description: Kho chứa các Patch hay mà Cydia không có
 Author: Kun Phạm
+
+Name: System Info
+Package: xyz.xninja.systeminfo
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 3.0)
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Description: Thêm Nhiều Thông Tin Hơn Cho iPhone.
+Vui lòng vào Cài Đặt->Cài Đặt Chung->Giới Thiệu để tìm hiểu thêm!
+Maintainer: Kun Phạm
+Author: Kun Phạm
+Section: Hệ Thống
+Installed-Size: 913Kb
 
