@@ -1,0 +1,8 @@
+Origin: kunitk4
+Label: kunitk4
+Suite: stable
+Version: 1.0
+Codename: kunitk4
+Architectures: iphoneos-arm
+Components: main
+Description: Kunitk4 Repo

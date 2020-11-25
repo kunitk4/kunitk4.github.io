@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('https://repo.thuthuatjb.com/css/font/Nunito-Regular.ttf'); 
+    
+}
+
+*{
+  font-family: 'Nunito';
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
